@@ -1,0 +1,47 @@
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #0b0d0f;
+    color: #f3f4f6;
+    overflow: hidden;
+}
+
+.gold-gradient-text {
+    background: linear-gradient(135deg, #FFF9E6 0%, #FFD700 50%, #FF8F00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+    border: 2px solid;
+    border-image: linear-gradient(to bottom right, #FFE082, #FF8F00) 1;
+}
+
+.glass-panel {
+    background: rgba(18, 25, 21, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFB300;
+    border-radius: 3px;
+}
+
+.pulse-gold {
+    box-shadow: 0 0 15px rgba(255, 179, 0, 0.5);
+}
